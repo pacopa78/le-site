@@ -6,32 +6,18 @@
   
   <title>le site des plus grand</title>
  
-  <link rel="shortcut icon" href="font2.png" />
   <link rel="stylesheet" href="styles.css">
- 
- <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 100%;
-    }
-
-    img {
-      position: sticky;
-      top: 0;
-      left: 0;
-      width: 90%;
-      height: 90%;
-      object-fit: cover;
-    }
-  </style>
 
 </head>
 
 <body>
 
-  <button id="changeColorBtn">BACKGROUND</button>
+  <div class="page-1">
+    <div class="btn-container">
+      <button id="changeColorBtn">BACKGROUND</button>
+    </div>
+    <img src="font2.png" >
+  </div>
 
 </body>
 
@@ -40,5 +26,35 @@
     document.body.classList.toggle('backgroundRed');
   }
 </script>
+
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .page-1 {
+    display: flex;
+  }
+
+  img {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    object-fit: cover;
+
+    z-index: -100;
+ }
+
+ .btn-container {
+  position: absolute;
+
+  margin-top: 30px;
+  margin-left: 20px;
+
+ }
+</style>
 
 </html>
