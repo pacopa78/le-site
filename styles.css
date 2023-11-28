@@ -4,8 +4,6 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
   
   .backgroundRed {
@@ -21,6 +19,12 @@ body {
     cursor: pointer;
     padding: 10px 15px;
     transition: all .25s;
+
+    height: 40px;
+    width: 200px;
+
+    margin: auto;
+    margin-top: 200px;
 
   }
   button::after, button::before {
