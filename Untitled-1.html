@@ -1,0 +1,40 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>le site des plus grand</title>
+  <link rel="shortcut icon" href="C:\Users\pacoe\Documents\site de linta net\ouiiPlan de travail 1.png" />
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+    }
+
+    img {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <img src="C:\Users\pacoe\Documents\site de linta net\ouiiPlan de travail 1.png" alt="Image en plein écran">
+  <button id="changeColorBtn">Changer la couleur</button>
+</body>
+<script>
+  document.getElementById('changeColorBtn').onclick = function() {
+    document.body.classList.toggle('backgroundRed');
+  }
+</script>
+</html>
