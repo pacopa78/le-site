@@ -7,7 +7,7 @@ body {
     background-color: rgb(58, 58, 58);
   }
 
-  button {
+  #changeColorBtn {
     font-size: large;
     border: 0;
     background: transparent;
@@ -22,7 +22,7 @@ body {
     height: 35px;
     width: 150px;
   }
-  button::after, button::before {
+  #changeColorBtn::after, #changeColorBtn::before {
     border: 2px solid #000000;
     content: '';
     position: absolute;
@@ -33,11 +33,11 @@ body {
     transition: all .15s;
   }
 
-  button:hover::after {
+  #changeColorBtn:hover::after {
     transform: translate(-3px, -3px);
   }
 
-  button:hover::before {
+  #changeColorBtn:hover::before {
     transform: translate(3px, 3px);
   }
   /* ################################################ */
@@ -78,7 +78,7 @@ body {
     border: 1px solid #ccc;
   }
   
-  button {
+  #connectBtn {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -87,7 +87,7 @@ body {
     cursor: pointer;
   }
   
-  button:hover {
+  #connectBtn:hover {
     background-color: #0056b3;
   }
  
