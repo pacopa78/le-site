@@ -81,6 +81,14 @@ body {
   #NOMbtm:hover::before {
     transform: translate(3px, 3px);
   }
+  .pres{
+    font-size: large;font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    position: absolute;
+    top: 8%;
+    left: 38%;
+  }
 
 
 
