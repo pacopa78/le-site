@@ -4,7 +4,7 @@ body {
   }
   
   .backgroundRed {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(68, 68, 68);
   }
 
   #changeColorBtn {
@@ -40,7 +40,36 @@ body {
   #changeColorBtn:hover::before {
     transform: translate(3px, 3px);
   }
-  /* ################################################ */
+
+  .NOM {
+    font-size: large;font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* conexion modul ######################## 
   .login-container {
     display: flex;
     position: absolute;
@@ -91,4 +120,4 @@ body {
     background-color: #0056b3;
   }
  
-   /* ################################################ */
+   ################################################ */
